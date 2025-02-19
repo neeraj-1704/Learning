@@ -8,5 +8,5 @@ Find the Middle Element:
     If the target is smaller, search the left half.
     If the target is larger, search the right half.
 Repeat until the element is found or the search space is empty.
-
+  
 
