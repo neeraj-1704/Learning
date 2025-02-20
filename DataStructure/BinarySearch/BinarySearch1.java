@@ -7,7 +7,7 @@ public class BinarySearch1 {
             int mid = (right + left) / 2 ; 
             if(a[mid] == target) return mid ;
 
-            if(a[mid] <= target) {
+            if(a[mid] < target) {
                 left = mid + 1;  // will visite the rigth
             }else {
                 right = mid - 1; // will visite the left
@@ -17,7 +17,7 @@ public class BinarySearch1 {
     }
     public static void main(String []args){
         int a[] = { 1,4,6,7,8,9,10};
-        int target = 8;
+        int target = 9;
         int n = a.length;
       int index =   print(a, target , n);
       System.out.println(index);
